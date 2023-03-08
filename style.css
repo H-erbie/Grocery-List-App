@@ -54,6 +54,7 @@ input[type='text']{
     background: linear-gradient(45deg, rgb(228, 79, 228),  rgb(214, 160, 90));
     transition: 0.5s ease;
     cursor: pointer;
+    color: white;
 }
 .add:hover{
     transform: scale(1.15);
@@ -80,13 +81,13 @@ input[type='text']{
     display: flex;
     gap: 0.5rem;
 }
-.but-con > div{
+.but-con > i{
     border-radius: 0.3rem;
     padding: 0.2rem 0.5rem;
     background: linear-gradient(45deg, rgb(226, 159, 226), rgb(243, 210, 168));
     transition: 0.5s ease;
 }
-.but-con > div:hover{
+.but-con > i:hover{
     transform: scale(1.1);
 }
 .groce-item:hover{

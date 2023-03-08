@@ -38,16 +38,14 @@ addGroce = (num) => {
     var newDiv = document.createElement('div');
     var butCon = document.createElement('div');
     var txt = document.createElement('div');
-    var del = document.createElement('div');
-    var edd = document.createElement('div');
+    var del = document.createElement('i');
+    var edd = document.createElement('i');
     txt.textContent = '- ' + num;
-    del.textContent = 'x';
-    edd.textContent = 'edit'
     newDiv.className = 'groce-item';
     butCon.className = 'but-con';
     txt.className = 'text';
-    del.className = 'del';
-    edd.className = 'edit';
+    del.className = 'fa-sharp fa-solid fa-trash';
+    edd.className = 'fa-solid fa-pen';
     newDiv.appendChild(txt);
     butCon.appendChild(del);
     butCon.appendChild(edd)
